@@ -1,0 +1,140 @@
+body{
+    background-color: #EAEAEA; /*Cor suave de fundo*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Titulo principal*/
+h1{
+    color: #ff2978b4; /*Cor do título*/
+    text-align: center; /*Centralizar título*/
+    font-size: 30px;
+    margin: 40px 60px;
+    padding: 20px 150px;
+    background-color: #ff29782b;
+    border-radius: 10px;
+}
+h2{
+    font-size: 25px;
+}
+
+/*Parágrafo*/
+p{
+    font-size: 21px; /*Tamanho maior de fonte*/
+    text-align: justify; /*Justificando o texto*/
+    margin: 40px 60px;
+    padding: 20px 150px;
+    background-color: #ff29780b;
+    border-radius: 10px;
+    text-indent: 30px;
+    color: #180f4a;
+}
+/*Mensagem*/
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ff29784e;
+    color: rgba(18, 18, 18, 0.768);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}    
+button:hover {
+    background-color: #ff29787e;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ff29780b;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+/*Lista não ordenada*/
+.atividades {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 60px;
+    background-color: #ff29780b;
+    border-radius: 10px;
+}
+li{
+    font-size: 18px;
+    margin-bottom: 10px; /*Espaçamento entre os itens*/
+}    
+/*Imagem*/
+.imgfamilia {
+    margin-left: 20px;
+    border-radius: 10px;/*Bordas arredondadas*/
+    width: 270px;/*Tamanho adequado*/
+}
+
+/*Tabela*/
+.paises { 
+    text-align: center;
+    padding: 20px 40px ;
+    margin: 60px;
+    margin-bottom: 10px;
+    background-color: #ff29780b;
+    border-radius: 10px;
+}
+table{
+    font-size: 25px;
+    margin:auto;
+    width: 50%;  
+    border-collapse: collapse;
+}
+td{
+    padding: 8px;/*Estilização da tabela*/
+    border: 1px solid #ff29782c;
+    background-color: #ff29780b;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/*Link*/
+.link{
+    padding: 20px 40px;
+    margin: 60px;
+    margin-bottom: 40px;
+    background-color: #ff29780b;
+    border-radius: 10px;
+    text-align: center;
+}
+a{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    color: #180f4a;
+    background: #ff297846;
+    padding: 15px ;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: white/*Mudar a cor do link*/
+}
+
+.footer{
+    color: #ff2978b4;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 60px;
+    padding: 10px;
+    background-color: #ff29782b;
+    border-radius: 10px;
+}
